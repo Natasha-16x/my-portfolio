@@ -24,6 +24,7 @@ h1 {
   border-color: black;
 }
 
+
 /* added CSS to nav ul  */
 
 ul {
@@ -80,3 +81,47 @@ p {
   margin: 0;
 }
 
+/* tried to add css grid */
+
+#gridContainer {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  " surfReport surfReport surfReport"
+  "ledWall calculator"
+  "pastelPuzzles runBuddy"
+}
+
+
+  .surfReport {
+   grid-area: surfReport;
+  }
+   
+  
+  
+    .ledwall {
+       grid-area: ledwall;
+    }
+      
+  
+  
+    .calculator {
+      
+      grid-area: calculator;
+      
+  }
+    
+  .pastelPuzzles {
+  
+    grid-area: pastelPuzzles;
+    
+  }
+
+  .runBuddy {
+    
+   grid-area: runBuddy;
+
+  }
+
+  
