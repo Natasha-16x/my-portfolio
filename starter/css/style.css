@@ -9,6 +9,42 @@ body {
   line-height: 1.5;
 }
 
+/* added display:flex to header */
+header {
+  display:flex;
+  background-color: pink;
+}
+
+/* added CSS to nav ul  */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 200px;
+  
+}
+/* added CSS to li */
+li {
+  display: inline-flex;
+
+}
+
+/* added css to li a items */
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 10px 15px ;
+}
+
+/* added a:hover to li items */
+
+li a:hover {
+background-color: white;
+}
+
 h1,
 h2,
 h3,
