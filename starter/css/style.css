@@ -83,45 +83,60 @@ p {
 
 /* tried to add css grid */
 
-#gridContainer {
+ #gridContainer {
   display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
+ grid-template-rows: 300px 300px; 
+ grid-template-columns: 1fr 1fr 1fr; 
+ row-gap: 20px;
+ grid-template-areas: 
   " surfReport surfReport surfReport"
   "ledWall calculator"
   "pastelPuzzles runBuddy"
 }
 
 
-  .surfReport {
-   grid-area: surfReport;
-  }
+  #surfReport {
+   background: url(../images/02-portfolio-4.jpg);
+   background-size: 500px;
+   background-repeat: no-repeat;
+   width: 500px;
+   height: 300px;
+    }
    
   
   
-    .ledwall {
-       grid-area: ledwall;
-    }
+    #ledwall {
+       background: url(../images/02-portfolio-1.jpg);
+       background-size: 450px;
+   background-repeat: no-repeat;
+   width: 300px;
+   height: 300px;
+}
       
-  
-  
-    .calculator {
-      
-      grid-area: calculator;
-      
-  }
+
+    #calculator {
+      background: url(../images/02-portfolio-2.jpg);
+   background-size: 450px;
+   background-repeat: no-repeat;
+   width: 300px;
+   height: 300px;
+}
     
-  .pastelPuzzles {
-  
-    grid-area: pastelPuzzles;
-    
+  #pastelPuzzles {
+    background: url(../images/02-portfolio-3.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
   }
 
-  .runBuddy {
-    
-   grid-area: runBuddy;
-
+  #runBuddy {
+    background: url(../images/02-run-buddy.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
   }
 
-  
+
+ 
